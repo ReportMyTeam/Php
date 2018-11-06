@@ -29,25 +29,22 @@ $y = $_GET["y"];
 
 if ($op==sum)
 {
-{
-echo $calculator->sum($x, $y);
-}
-
-else if ($op==sub)
-{
-echo $calculator->sub($x, $y);
-}
-
-else if ($op==multi)
-{
-echo $calculator->multi($x, $y);
-
-}
-else if ($op==divi)
-{
-echo $calculator->divi($x, $y);
-}
-else echo "Unrecognized operation: $op";
+	
+	echo $calculator->sum($x, $y);
+	
+	else if ($op==sub)
+	{
+	echo $calculator->sub($x, $y);
+	}
+	else if ($op==multi)
+	{
+	echo $calculator->multi($x, $y);
+	}
+	else if ($op==divi)
+	{
+	echo $calculator->divi($x, $y);
+	}
+	else echo "Unrecognized operation: $op";
 }
 
 

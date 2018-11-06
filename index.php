@@ -28,10 +28,9 @@ $x = $_GET["x"];
 $y = $_GET["y"];
 
 if ($op==sum)
-{
-	
+	{
 	echo $calculator->sum($x, $y);
-	
+	}
 	else if ($op==sub)
 	{
 	echo $calculator->sub($x, $y);
@@ -45,7 +44,7 @@ if ($op==sum)
 	echo $calculator->divi($x, $y);
 	}
 	else echo "Unrecognized operation: $op";
-}
+
 
 
 ?>
